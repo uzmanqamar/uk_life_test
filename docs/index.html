@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UK LIFE TEST - Legal</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #111827;
+      --muted: #4b5563;
+      --line: #d1d5db;
+      --bg: #f8fafc;
+      --panel: #ffffff;
+      --accent: #0f766e;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      color: var(--ink);
+      background: var(--bg);
+    }
+
+    main {
+      width: min(880px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 56px 0;
+    }
+
+    header {
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 24px;
+      margin-bottom: 28px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2rem, 5vw, 3.25rem);
+      line-height: 1.08;
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 0 0 16px;
+      color: var(--muted);
+    }
+
+    nav {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+      margin-top: 28px;
+    }
+
+    a {
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .link-box {
+      display: block;
+      padding: 18px;
+      border: 1px solid var(--line);
+      background: var(--panel);
+      border-radius: 8px;
+      text-decoration: none;
+    }
+
+    .link-box span {
+      display: block;
+      margin-top: 6px;
+      color: var(--muted);
+      font-weight: 400;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>UK LIFE TEST Legal Documents</h1>
+      <p>Legal pages for UK LIFE TEST, an independent study companion app.</p>
+    </header>
+
+    <nav aria-label="Legal documents">
+      <a class="link-box" href="./privacy-policy.html">
+        Privacy Policy
+        <span>How the app handles local progress data, purchases, and privacy.</span>
+      </a>
+      <a class="link-box" href="./terms-and-conditions.html">
+        Terms and Conditions
+        <span>Rules for using the app, purchase terms, disclaimers, and support information.</span>
+      </a>
+    </nav>
+  </main>
+</body>
+</html>
